@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mdias HTML5 </title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>tenta abir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+       <source media="(max-width: 750px)" srcset="imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 950px)" srcset="imagens/medio.png" type="image/png">
+        <img src="imagens/grande.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Áudio</h1>
+
+    <audio preload="metadata" controls loop>
+        <source src="midia/Summer Solstice on the June Planet - Bail Bonds.mp3" type="audio/mpeg">
+        <source src="midia/Summer Solstice on the June Planet - Bail Bonds.ogg" type="audio/ogg">
+        <source src="midia/Summer Solstice on the June Planet - Bail Bonds.wav" type="audio/wav">
+        <p>o seu navegador nao consegue reproduzir o audio
+        <a href="midia/Summer Solstice on the June Planet - Bail Bonds.mp3">clique para baixar o arquivo MP3 </a></p>
+    </audio>
+</body>
+</html>
