@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas grandes</title>
+    <style>
+        h1{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        table{
+            width: 550px;
+            text-align: center;
+            border-collapse: collapse;
+        }
+        thead, #total{
+            background-color: rgba(185, 185, 185, 0.76); 
+            color: rgb(0, 0, 0);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder;
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: bisque;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+        thead >tr >th {
+            position: sticky;
+            top:-1px;
+            background-color: rgb(50, 51, 51);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>TABELAS GRANDES</h1>
+    <table>
+        <thead>
+            <tr>
+            <th>Posição</th>
+            <th>Unidade Federativa</th>
+            <th>População 2010</th>
+            <th>População 2021</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td> São Paulo</td>
+                <td class="num">41 262 199</td>
+                <td class="mum1">46 649 132</td>
+            </tr>    
+            <tr>
+                <td>2</td>
+                <td> Minas Gerais</td>
+                <td class="num">19 597 330</td>
+                <td class="num1">21 411 923</td>
+            </tr> 
+            <tr>
+                <td>3</td>
+                <td> Rio de Janeiro</td>
+                <td class="num">15 989 929</td>
+                <td class="num1">17 463 349</td>
+            </tr> 
+            <tr>
+                <td>4</td>
+                <td> Bahia</td>
+                <td class="num">14 016 906</td>
+                <td class="num1">14 985 284</td>
+            </tr> 
+            <tr>
+                <td>5</td>
+                <td> Paraná</td>
+                <td class="num">10 444 526</td>
+                <td class="num1">11 597 484</td>
+            </tr> 
+            <tr>
+                <td>6</td>
+                <td> Rio Grande do Sul</td>
+                <td class="num">10 693 929</td>
+                <td class="num1">11 466 630</td>
+            </tr> 
+            <tr>
+                <td>7</td>
+                <td> Pernambuco</td>
+                <td class="num">8 796 448</td>
+                <td class="num1">9 674 793</td>
+            </tr> 
+            <tr>
+                <td>8</td>
+                <td> Ceará</td>
+                <td class="num">8 452 381</td>
+                <td class="num1">9 240 580</td>
+            </tr> 
+            <tr>
+                <td>9</td>
+                <td> Pará</td>
+                <td class="num">7 581 051</td>
+                <td class="num1">8 777 124</td>
+            </tr> 
+            <tr>
+                <td>10</td>
+                <td> Santa Catarina</td>
+                <td class="num">6 248 436</td>
+                <td class="num1">7 338 473</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th id="total">Total de População</th>
+                <td id="total1"></td>
+                <td id="total2"></td>
+            </tr>
+        </tfoot>
+    </table>
+ 
+</body>
+</html>
