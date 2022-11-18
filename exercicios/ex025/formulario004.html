@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="cadsatro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais </legend>
+            <p>
+                <label for="inome">nome:</label>
+                <input type="text" name="nome" id="inome" minlength="5" maxlength="20" required>
+            </p>
+            <p>
+                <label for="iemail">Email:</label>
+                <input type="email" name="email" id="iemail">
+            </p>
+            <p>
+                <label for="iphone">telefone:</label>
+                <input type="tel" name="phone" id="iphone" pattern="^[0-9]{4}-[0-9]{4}$" required>
+            </p>
+        </fieldset>
+            <!-- estudar mais regEX-->
+            <p>
+                <input type="submit" value="enviar">
+                <input type="reset" value="limpar">
+            </p>
+    </form>
+</body>
+</html>
