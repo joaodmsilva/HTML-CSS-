@@ -1,0 +1,94 @@
+/* .container{
+    display: flex;
+    /* flex-flow: column;  */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly;  /* os itens ficam com a mesma distancia entre eles
+    align-items: center;*/
+    /* gap: 20px; /* espaços entre elementos 
+    border: 1px dashed red;
+    width: 600px;
+    
+}
+
+.item{
+     border: 1px solid;
+     flex-basis: 100%;
+    /* flex-basis: auto; 
+    flex-grow: 1; 
+} 
+*/
+
+*{
+    margin: 0;
+}
+
+
+header{
+    padding: 4rem;
+    background: lightgray;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: .8rem;
+}
+
+ul li:last-child{
+    background: black;
+    color:white;
+    padding: .8rem;
+}
+
+
+img{
+    width: 30%;
+    height: auto;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+button{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    line-height: 0;
+    gap: .4rem;
+    margin: .8rem 30px;
+    margin-left: 50%;
+}
+
+button img{
+    width: 2rem;
+    height: 2rem;
+}
+/* aside{
+    height: 95vh;
+    border: 1px solid;
+    flex: 1;
+} */
+
+footer{
+    margin-top: auto;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content:center;
+    background: gray;
+    color: white;
+    height: 8rem;
+    
+}
